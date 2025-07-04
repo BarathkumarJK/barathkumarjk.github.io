@@ -5,10 +5,8 @@ layout: page
 comments: false
 ---
 
-### `Johans Praveen` &nbsp; *a.k.a* &nbsp; `Jopraveen`
-- Project Trainee at [Zoho](https://zoho.com)
-- Coordinator & CTF player at [TamilCTF](https://ctftime.org/team/128998)
-- I’m interested in learning low level stuffs.
+### `Barathkumar` &nbsp; *a.k.a* &nbsp; `CyberExploitme`
+- DevSecOps Enthusiast
 
 ## `Infosec contributions`
 
