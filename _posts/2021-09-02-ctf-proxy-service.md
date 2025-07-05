@@ -1,16 +1,13 @@
-
-# 🧩 InCTF - Proxy Service (Web Challenge)
-
-> **Category**: Web  
-> **Difficulty**: Hard  
-> **Points**: 400  
-> **Flag Format**: `inctf{*}`  
-
-![Challenge UI](https://github.com/user-attachments/assets/a18fe345-15ec-47b5-b11d-c16b675c400e)
-
+---
+title: Proxy Service
+date: 2021-09-02 11:20:05 +0530
+categories: [inctf,web,ssrf]
+tags: [CTFTIME WRITEUP]
+excerpt: Web Challenge
 ---
 
 ## 🕵️ Challenge: Proxy Service
+![Challenge UI](https://github.com/user-attachments/assets/a18fe345-15ec-47b5-b11d-c16b675c400e)
 
 **Description:**
 
