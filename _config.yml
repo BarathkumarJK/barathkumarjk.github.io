@@ -10,7 +10,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jopraveen # author name
+  name: Barathkumar # author name
   bio: >- # tell to the world
     Site to help cybersec researchers
   username: jopraveen # general username
