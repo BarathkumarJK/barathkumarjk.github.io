@@ -13,15 +13,15 @@ author:
   name: Barathkumar # author name
   bio: >- # tell to the world
     Site to help cybersec researchers
-  username: jopraveen # general username
-  github: jopraveen # github username
-  twitter: jopraveen18 # twitter username
+  username: barathkumarjk # general username
+  github: barathkumarjk # github username
+  twitter: CyberExploitme # twitter username
   facebook: facebook_username # facebook username
-  email: jopraveen18yt@email.com # email adress
+  email: barathkumarjk2020ai@gmail.com # email adress
   avatar: https://avatars.githubusercontent.com/u/56404692?v=4 # change with your own avatar
 
 # URL settings
-url: "https://jopraveen.github.io" #
+url: "https://barathkumarjk.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
