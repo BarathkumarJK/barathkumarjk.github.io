@@ -20,9 +20,10 @@ To my surprise, the **tracking page showed the same dumbbell image that was used
 
 Being curious, I right-clicked the image and opened it in a new tab. The image URL looked like this:
 
-```
-https://***.ecommerce.com/www/tracker/service/track-888895.svg
-```
+  ```
+  https://***.ecommerce.com/www/tracker/service/track-888895.svg
+  ```
+<br><br>
 
 Out of habit (and a bit of instinct), I started modifying the path.
 
