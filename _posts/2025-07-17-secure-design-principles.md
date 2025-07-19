@@ -1,6 +1,6 @@
 ---
 title: Secure Design Principles
-date: 2025-07-07 11:20:05 +0530
+date: 2025-07-17 11:20:05 +0530
 categories: [Design Principles,Security]
 tags: [Secure Design Princple]
 excerpt: Design
