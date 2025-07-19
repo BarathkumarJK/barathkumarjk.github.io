@@ -40,6 +40,7 @@ excerpt: Docker Security Best Practices
   ```bash
   trivy image myimage:tag
   ```
+  <br>
   
 - **Immutable builds** (rebuild instead of patching running containers).\
   *Why:* Ensures a clear audit trail and avoids configuration drift.
