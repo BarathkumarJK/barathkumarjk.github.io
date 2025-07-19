@@ -21,6 +21,8 @@ excerpt: Docker Security Best Practices
   RUN addgroup -S appgroup && adduser -S appuser -G appgroup
   USER appuser
   ```
+  <br>
+  
 - **Reduce attack surface**\
   *Why:* Fewer tools and packages mean fewer potential vulnerabilities and exploits.
   - Remove unnecessary packages and debugging tools.
@@ -36,7 +38,6 @@ excerpt: Docker Security Best Practices
 
 - **Scan images during build** (Trivy, Grype, Snyk):\
   *Why:* Detect vulnerabilities early before pushing to production.
-  
   ```bash
   trivy image myimage:tag
   ```
@@ -50,12 +51,15 @@ excerpt: Docker Security Best Practices
   export DOCKER_CONTENT_TRUST=1
   docker push myimage:tag
   ```
+  <br>
   
 - **Use BuildKit** for secure builds:\
   *Why:* BuildKit isolates build secrets and offers better performance and caching.
   ```bash
   DOCKER_BUILDKIT=1 docker build .
   ```
+  <br>
+  
 - **Keep build cache clean** (`--no-cache` when needed).\
   *Why:* Prevents reusing potentially vulnerable layers.
 
@@ -66,26 +70,36 @@ excerpt: Docker Security Best Practices
   ```bash
   docker run --user 1000:1000 myimage:tag
   ```
+  <br>
+  
 - **Apply security profiles** (seccomp, AppArmor, SELinux):\
   *Why:* Restricts system calls and reduces the attack surface.
   ```bash
   docker run --security-opt seccomp=default.json myimage:tag
   ```
+  <br>
+  
 - **Limit capabilities**:\
   *Why:* Drops unneeded kernel privileges to mitigate exploitation.
   ```bash
   docker run --cap-drop=ALL --cap-add=NET_BIND_SERVICE myimage:tag
   ```
+  <br>
+  
 - **Use read-only filesystems**:\
   *Why:* Prevents tampering with the filesystem during runtime.
   ```bash
   docker run --read-only --tmpfs /tmp myimage:tag
   ```
+  <br>
+  
 - **Restrict resource usage**:\
   *Why:* Prevents denial-of-service attacks by resource exhaustion.
   ```bash
   docker run --memory="256m" --cpus="0.5" --pids-limit=100 myimage:tag
   ```
+  <br>
+  
 - **Isolate networks** with custom bridge networks.\
   *Why:* Prevents lateral movement between containers.
 - **Avoid privileged mode**.\
@@ -109,6 +123,8 @@ excerpt: Docker Security Best Practices
   docker image prune -a
   docker container prune
   ```
+  <br>
+  
 - **Backup and disaster recovery** for image registries.\
   *Why:* Ensures quick recovery after a breach or data loss.
 - **Implement RBAC** in CI/CD to restrict build/deploy permissions.\
