@@ -45,7 +45,6 @@ excerpt: Docker Security Best Practices
   *Why:* Ensures a clear audit trail and avoids configuration drift.
 - **Sign images** (Docker Content Trust or cosign):\
   *Why:* Guarantees image integrity and authenticity.
-  
   ```bash
   export DOCKER_CONTENT_TRUST=1
   docker push myimage:tag
