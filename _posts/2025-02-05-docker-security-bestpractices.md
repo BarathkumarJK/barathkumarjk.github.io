@@ -36,17 +36,21 @@ excerpt: Docker Security Best Practices
 
 - **Scan images during build** (Trivy, Grype, Snyk):\
   *Why:* Detect vulnerabilities early before pushing to production.
+  
   ```bash
   trivy image myimage:tag
   ```
+  
 - **Immutable builds** (rebuild instead of patching running containers).\
   *Why:* Ensures a clear audit trail and avoids configuration drift.
 - **Sign images** (Docker Content Trust or cosign):\
   *Why:* Guarantees image integrity and authenticity.
+  
   ```bash
   export DOCKER_CONTENT_TRUST=1
   docker push myimage:tag
   ```
+  
 - **Use BuildKit** for secure builds:\
   *Why:* BuildKit isolates build secrets and offers better performance and caching.
   ```bash
