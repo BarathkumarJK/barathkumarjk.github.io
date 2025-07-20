@@ -2,7 +2,7 @@
 title: How Tracking My Dumbbell Delivery Led Me to an S3 Bucket Misconfiguration on a Major E-Commerce Platform
 date: 2020-11-10 09:11:05 +0530
 categories: [BugBounty Writeup,Web,S3 Bucket Misconfiguration,Cloud Bugs]
-tags: [Bugbounty,Writeup]
+tags: [BugbountyWriteup]
 excerpt: Web Challenge
 ---
 
