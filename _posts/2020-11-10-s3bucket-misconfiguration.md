@@ -10,6 +10,9 @@ excerpt: Web Challenge
 
 Security bugs often show up in the most unexpected ways. This time, it happened when I was simply tracking a fitness product I had ordered. What started as a routine delivery check turned into the discovery of a **misconfigured Amazon S3 bucket** on one of the top e-commerce websites in the industry—exposing sensitive data.
 
+
+<img width="694" height="865" alt="image" src="https://github.com/user-attachments/assets/e14e4cfb-c19a-42df-aed3-419bb80d5df7" />
+
 ---
 
 ## 📦 The Dumbbell That Opened the Door
